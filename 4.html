@@ -1,0 +1,10 @@
+<script>
+	function is_dateString(is_dateString){
+var date = /^\d{2}[./-]\d{2}[./-]\d{4}$/;
+var res = date.test(is_dateString);
+return res;
+}
+console.log(is_dateString("01/01/2015"));
+console.log(is_dateString("01-22-2015"));
+console.log(is_dateString("32 01 2015"));
+</script>

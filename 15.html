@@ -1,0 +1,8 @@
+<script>
+	function socialSecurityCheck(str){
+var re = /^(?!000)\d{3,3}-(?!00)[0-9][0-9]-\d{4,4}$/ 
+return re.test(str);
+
+}
+console.log(socialSecurityCheck("002-00-4254"));
+</script>

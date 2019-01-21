@@ -1,0 +1,9 @@
+<script>
+	function containsAlphaDashUnderscore (str) {
+return (/[\d\w-_]/g).test(str);
+}
+
+console.log(containsAlphaDashUnderscore('adsjfh-'));
+console.log(containsAlphaDashUnderscore('12_569'));
+console.log(containsAlphaDashUnderscore(''));
+</script>

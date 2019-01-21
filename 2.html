@@ -1,0 +1,10 @@
+<script>
+	function checkCC(num){
+   let regexp = /^(\d{4})\-\1\-\1\-\1$/;
+  if (regexp.test(num)){ return "Looks like a credit card number"}
+  else {return "Please enter a credit card number in XXXX-XXXX-XXXX-XXXX format"}
+}
+
+console.log(checkCC("1234-1234-1234-1234"))
+console.log(checkCC("1234-1234-1234-1234-1234"))
+</script>

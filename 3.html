@@ -1,0 +1,10 @@
+<script>
+	function ex3(email){
+var mail = /^\w+@[a-z A-Z_]+?\.[a-z A-Z]{2,3}$/;
+var res = mail.test(email);
+return res;
+}
+console.log(ex3('abcab@gmail.com'));
+console.log(ex3('harshagmail.com'));
+console.log(ex3('vardhan@gmailcom'));
+</script>
